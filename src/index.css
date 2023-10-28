@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Caprasimo", serif;
+  font-family: "Itim", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Tilt Neon", sans-serif;
+}

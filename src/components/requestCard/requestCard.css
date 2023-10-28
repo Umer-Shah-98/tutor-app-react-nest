@@ -1,0 +1,18 @@
+/* .proposals-modal {
+  min-width: 500px;
+  min-height: 500px;
+  z-index: 10;
+  position: absolute;
+  top: -9%;
+  left: 26%;
+  transform: translate(-8%, -10%);
+} */
+.proposals-modal {
+  width: 500px; /* Set the width as desired */
+  height: 500px; /* Set the height as desired */
+  z-index: 10;
+  position: fixed; /* Use 'fixed' for modals to ensure it stays in the same position while scrolling */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center it perfectly */
+}

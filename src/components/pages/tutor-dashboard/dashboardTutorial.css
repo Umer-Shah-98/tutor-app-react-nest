@@ -1,0 +1,42 @@
+/* Typewriter animation */
+.typewriter {
+  overflow: hidden; /* Hide overflow so that text doesn't show before animation */
+  white-space: nowrap; /* Prevent line breaks */
+  animation: typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #333; /* Color of the caret (e.g., black) */
+  }
+}
+.loader {
+  border: 6px solid rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin-right: 15px;
+  display: block;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
